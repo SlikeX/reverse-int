@@ -1,3 +1,7 @@
-module.exports = function reverse (n) {
-  
+module.exports = function reverse(n) {
+    let a = Math.abs(n)
+    let b = a.toString().split('').reverse().join('')
+
+    console.log(b)
+    return b
 }
